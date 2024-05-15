@@ -5,7 +5,9 @@
     gap: 35px;
 }
 .hero img {
-    margin-top: 150px;
+    margin-top: 100px;
+    width: 300px;
+    border-radius: 50%;
 }
 
 .hero h1 {
