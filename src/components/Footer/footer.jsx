@@ -5,7 +5,7 @@ import user_icon from '../../assets/user_icon.svg'
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div id='footer' className='footer'>
         <div className="footer-top">
             <div className="footer-top-left">
                 <img src={footer_logo} alt="" />
@@ -22,9 +22,8 @@ const Footer = () => {
         <div className="footer-bottom">
             <p className='footer-bottom-left'>Copyright © 2024 Daniel Qumsieh. All rights reserved</p>
             <div className="footer-bottom-right">
-                <p>Terms of Service</p>
-                <p>Privacy Policy</p>
-                <p>Conenct with me</p>
+                <a href="https://github.com/danielqum123" target='_blank'><p>GitHub</p></a>
+                <a href="https://www.linkedin.com/in/danial-qumsieh" target='_blank'><p>LinkedIn</p></a>
             </div>
         </div>
     </div>
