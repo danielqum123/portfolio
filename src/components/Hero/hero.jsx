@@ -2,6 +2,7 @@ import React from 'react'
 import './hero.css'
 import profileImg from '../../assets/profile_img.jpeg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import myCv from '../../assets/my_cv.pdf'
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
         <p>I am a full-stack developer from Bethlehem, with 2 years of experience from multiple companies like PCNC IT Solutions and Zeva International.</p>
         <div className="hero-action">
             <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
-            <div className="hero-resume"><a href="https://server192.web-hosting.com:2083/cpsess5535542449/frontend/jupiter/filemanager/showfile.html?file=my+cv.pdf&fileop=&dir=%2Fhome%2Fdaniohuy&dirop=&charset=&file_charset=&baseurl=&basedir=">My Resume</a></div>
+            <div className="hero-resume"><a href={myCv} target="_blank" rel="noopener noreferrer">My Resume</a></div>
         </div>
     </div>
   )
