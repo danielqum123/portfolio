@@ -1,9 +1,6 @@
 import project1_img from '../assets/ministore.png'
 import project2_img from '../assets/online_store.png'
 import project3_img from '../assets/spacr.png'
-import project4_img from '../assets/project_4.svg'
-import project5_img from '../assets/project_5.svg'
-import project6_img from '../assets/project_6.svg'
 
 const mywork_data = [
     {
